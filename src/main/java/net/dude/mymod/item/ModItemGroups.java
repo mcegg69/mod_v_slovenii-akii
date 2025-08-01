@@ -11,6 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 //test
+//привет сладкий
 
 public class ModItemGroups {
     public static final ItemGroup V_SLOVAKII_GROUP1 = Registry.register(
