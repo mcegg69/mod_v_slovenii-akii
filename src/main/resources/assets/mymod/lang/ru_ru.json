@@ -1,0 +1,27 @@
+{
+  "item.mymod.v_slovenii": "В Словении",
+  "item.mymod.raw_v_slovenii": "Не приготовленное В Словении",
+  "item.mymod.v_slovenii_midas": "Рука мидаса В Словении",
+  "item.mymod.v_slovakii": "В Словакии",
+  "item.mymod.raw_v_slovakii": "Не приготовленное В Словакии",
+  "item.mymod.v_slovakii_midas": "Рука мидаса В Словакии",
+
+  "block.mymod.block_v_slovenii": "Блок В Словении",
+  "block.mymod.raw_v_slovenii_ore": "Руда В Словении",
+  "block.mymod.raw_v_slovenii_deepslate_ore": "Глубиная руда В Словении",
+  "block.mymod.block_v_slovakii": "Блок В Словакии",
+  "block.mymod.raw_v_slovakii_ore": "Руда В Словакии",
+  "block.mymod.raw_v_slovakii_deepslate_ore": "Глубиная руда В Словакии",
+
+  "itemgroup.mymod.v_slovenii_group": "В Словении",
+  "itemgroup.mymod.v_slovakii_group": "В Словакии",
+
+  "tooltip.mymod.raw_v_slovenii_raw_v_slovakii.tooltip": "Нужен хороший повар!",
+  "tooltip.raw_deepslate_v_slovakii_ore_v_slovenii_ore.tooltip": "Только в глубоких пещерах!",
+  "tooltip.mymod.v_slovenii.tooltip": "Брат §cВ Словакии§r",
+  "tooltip.raw_v_slovenii_ore.tooltip": "Имеет не приготовленные §9зубища!§r",
+  "tooltip.block_v_slovenii.tooltip": "Единственный с большими и страшными §9клыками!§r",
+  "tooltip.mymod.v_slovakii.tooltip": "Брат §9В Словении§r",
+  "tooltip.raw_v_slovakii_ore.tooltip": "Имеет не приготовленные §9колючки!§r",
+  "tooltip.block_v_slovakii.tooltip": "Единственный с большими и страшными §9шипами!§r"
+}
