@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "v_slovenii",
+  "ingredient": {
+    "item": "mymod:raw_v_slovenii"
+  },
+  "result": {
+    "id": "mymod:v_slovenii"
+  }
+}

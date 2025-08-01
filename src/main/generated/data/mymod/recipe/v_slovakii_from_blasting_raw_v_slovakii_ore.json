@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "v_slovakii",
+  "ingredient": {
+    "item": "mymod:raw_v_slovakii_ore"
+  },
+  "result": {
+    "id": "mymod:v_slovakii"
+  }
+}
