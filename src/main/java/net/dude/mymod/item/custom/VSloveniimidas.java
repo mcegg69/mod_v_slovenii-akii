@@ -33,7 +33,7 @@ public class VSloveniimidas extends Item {
 
                     );
 
-            if(!world.isClient() & clickedBlock != Blocks.BEDROCK) {
+            if(!world.isClient() & clickedBlock != Blocks.BEDROCK & clickedBlock != ModBlocks.BLOCK_V_SLOVENII) {
                 world.setBlockState(context.getBlockPos(), V_SLOVENII_MIDAS_MAP.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
