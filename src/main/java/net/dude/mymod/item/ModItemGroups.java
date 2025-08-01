@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup V_SLOVAKII_GROUP_BLOCKS = Registry.register(
             Registries.ITEM_GROUP,
-            Identifier.of(Mymod.MOD_ID,"v_slovakii_group"),
+            Identifier.of(Mymod.MOD_ID,"v_slovakii_group_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLOCK_V_SLOVAKII))
                     .displayName(Text.translatable("itemgroup.mymod.v_slovakii_group"))
                     .entries((displayContext, entries) -> {
@@ -27,7 +27,7 @@ public class ModItemGroups {
 
     public static final ItemGroup V_SLOVAKII_GROUP_ITEMS = Registry.register(
             Registries.ITEM_GROUP,
-            Identifier.of(Mymod.MOD_ID,"v_slovakii_group"),
+            Identifier.of(Mymod.MOD_ID,"v_slovakii_group_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.V_SLOVAKII))
                     .displayName(Text.translatable("itemgroup.mymod.v_slovakii_group"))
                     .entries((displayContext, entries) -> {
@@ -38,7 +38,7 @@ public class ModItemGroups {
 
     public static final ItemGroup V_SLOVENII_GROUP_BLOCKS = Registry.register(
             Registries.ITEM_GROUP,
-            Identifier.of(Mymod.MOD_ID,"v_slovenii_group"),
+            Identifier.of(Mymod.MOD_ID,"v_slovenii_group_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLOCK_V_SLOVENII))
                     .displayName(Text.translatable("itemgroup.mymod.v_slovenii_group"))
                     .entries((displayContext, entries) -> {
@@ -49,7 +49,7 @@ public class ModItemGroups {
 
 public static final ItemGroup V_SLOVENII_GROUP_ITEMS = Registry.register(
             Registries.ITEM_GROUP,
-            Identifier.of(Mymod.MOD_ID,"v_slovenii_group"),
+            Identifier.of(Mymod.MOD_ID,"v_slovenii_group_item"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.V_SLOVENII))
                     .displayName(Text.translatable("itemgroup.mymod.v_slovenii_group"))
                     .entries((displayContext, entries) -> {
