@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mymod:block/v_slovenii_slabs"
+    },
+    "type=double": {
+      "model": "mymod:block/block_v_slovenii"
+    },
+    "type=top": {
+      "model": "mymod:block/v_slovenii_slabs_top"
+    }
+  }
+}
