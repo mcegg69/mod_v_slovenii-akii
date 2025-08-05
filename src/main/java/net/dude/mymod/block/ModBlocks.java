@@ -2,9 +2,7 @@ package net.dude.mymod.block;
 
 import net.dude.mymod.Mymod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -99,6 +97,66 @@ public class ModBlocks {
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });
+
+    //После этой строки идут блоки с моделями , в основном не кастомные , т.к. они якобы сделанны из деревва прочность = 3f
+    //Также нужно пофиксить текстуры (взять из майна) , добавишь описание
+
+    public static final Block V_SLOVENII_STAIRS = registerBlock("v_slovenii_stairs" , new StairsBlock(ModBlocks.BLOCK_V_SLOVENII.getDefaultState() ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_SLABS = registerBlock("v_slovenii_slabs" , new SlabBlock(
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_BUTTONS = registerBlock("v_slovenii_buttons" , new ButtonBlock(BlockSetType.IRON , 20 ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)
+                    .noCollision()));
+
+    public static final Block V_SLOVENII_PRESSURE_PLATE = registerBlock("v_slovenii_pressure_plate" , new PressurePlateBlock(BlockSetType.IRON ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_FENCE = registerBlock("v_slovenii_fence" , new FenceBlock(
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_FENCE_GATE = registerBlock("v_slovenii_fence_gate" , new FenceGateBlock(WoodType.ACACIA ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_WALLS = registerBlock("v_slovenii_walls" , new WallBlock(
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block V_SLOVENII_DOORS = registerBlock("v_slovenii_doors" , new DoorBlock(BlockSetType.ACACIA ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)
+                    .nonOpaque()));
+
+    public static final Block V_SLOVENII_TRAP_DOORS = registerBlock("v_slovenii_trap_doors" , new TrapdoorBlock(BlockSetType.ACACIA ,
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.POLISHED_TUFF)
+                    .nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block){

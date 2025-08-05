@@ -36,5 +36,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmelting(recipeExporter, V_SLOVENII_SMELTABLES, RecipeCategory.MISC, ModItems.V_SLOVENII,1f, 200,"v_slovenii");
         offerBlasting(recipeExporter, V_SLOVENII_SMELTABLES, RecipeCategory.MISC, ModItems.V_SLOVENII,1f, 100, "v_slovenii");
+
+
     }
 }

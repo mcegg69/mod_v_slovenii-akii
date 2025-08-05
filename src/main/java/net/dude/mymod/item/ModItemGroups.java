@@ -45,6 +45,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCK_V_SLOVENII);
                         entries.add(ModBlocks.RAW_V_SLOVENII_ORE);
                         entries.add(ModBlocks.RAW_V_SLOVENII_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.V_SLOVENII_BUTTONS);
+                        entries.add(ModBlocks.V_SLOVENII_TRAP_DOORS);
+                        entries.add(ModBlocks.V_SLOVENII_DOORS);
+                        entries.add(ModBlocks.V_SLOVENII_STAIRS);
+                        entries.add(ModBlocks.V_SLOVENII_SLABS);
+                        entries.add(ModBlocks.V_SLOVENII_PRESSURE_PLATE);
+                        entries.add(ModBlocks.V_SLOVENII_FENCE);
+                        entries.add(ModBlocks.V_SLOVENII_FENCE_GATE);
+                        entries.add(ModBlocks.V_SLOVENII_WALLS);
                     }).build());
 
 public static final ItemGroup V_SLOVENII_GROUP_ITEMS = Registry.register(
