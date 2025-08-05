@@ -1,9 +1,9 @@
-// 1.21	2025-08-05T16:39:29.1324582	mymod/Model Definitions
+// 1.21	2025-08-05T22:09:19.8887871	mymod/Model Definitions
 811377a70c7c15749d2e8b62e288d6d92f8cfd98 assets\mymod\models\block\v_slovenii_doors_bottom_right.json
 f6c17ea68fa2219f08c52fa46196253d12ebcbe4 assets\mymod\blockstates\block_v_slovakii.json
 46324aac03168b71a2d06dec0f4062322276c874 assets\mymod\models\block\v_slovenii_fence_gate_wall_open.json
-069da55a0fb52ffeef21be3154c97e32d0e5ddf8 assets\mymod\blockstates\v_slovenii_stairs.json
 f52c4dff2eedc10ba724a22463d2f0934da4e348 assets\mymod\models\block\v_slovenii_walls_side.json
+069da55a0fb52ffeef21be3154c97e32d0e5ddf8 assets\mymod\blockstates\v_slovenii_stairs.json
 21c309779d98df9005e74891edcd6b409a55af05 assets\mymod\models\block\raw_v_slovakii_deepslate_ore.json
 b7e2315d7fceb81dba3cc8e30145eeb345ffde00 assets\mymod\blockstates\v_slovenii_doors.json
 e41f68234033baa78dc503b27c6b458c3d7adfc1 assets\mymod\blockstates\v_slovenii_buttons.json

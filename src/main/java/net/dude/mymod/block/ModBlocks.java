@@ -144,14 +144,14 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.POLISHED_TUFF)));
 
-    public static final Block V_SLOVENII_DOORS = registerBlock("v_slovenii_doors" , new DoorBlock(BlockSetType.ACACIA ,
+    public static final Block V_SLOVENII_DOORS = registerBlock("v_slovenii_doors" , new DoorBlock(BlockSetType.OAK ,
             AbstractBlock.Settings.create()
                     .strength(3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.POLISHED_TUFF)
                     .nonOpaque()));
 
-    public static final Block V_SLOVENII_TRAP_DOORS = registerBlock("v_slovenii_trap_doors" , new TrapdoorBlock(BlockSetType.ACACIA ,
+    public static final Block V_SLOVENII_TRAP_DOORS = registerBlock("v_slovenii_trap_doors" , new TrapdoorBlock(BlockSetType.OAK ,
             AbstractBlock.Settings.create()
                     .strength(3f)
                     .requiresTool()

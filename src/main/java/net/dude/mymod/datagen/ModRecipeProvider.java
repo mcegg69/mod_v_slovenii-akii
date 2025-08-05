@@ -4,8 +4,10 @@ import net.dude.mymod.block.ModBlocks;
 import net.dude.mymod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Block;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -37,6 +39,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(recipeExporter, V_SLOVENII_SMELTABLES, RecipeCategory.MISC, ModItems.V_SLOVENII,1f, 200,"v_slovenii");
         offerBlasting(recipeExporter, V_SLOVENII_SMELTABLES, RecipeCategory.MISC, ModItems.V_SLOVENII,1f, 100, "v_slovenii");
 
-
     }
+
 }
