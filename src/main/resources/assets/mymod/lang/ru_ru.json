@@ -22,8 +22,10 @@
   "block.mymod.v_slovenii_pressure_plate": "Нажимная плита В Словении",
   "block.mymod.v_slovenii_stairs": "Ступеньки В Словении",
 
-  "itemgroup.mymod.v_slovenii_group": "В Словении",
-  "itemgroup.mymod.v_slovakii_group": "В Словакии",
+  "itemgroup.mymod.v_slovenii_group_items": "Предметы В Словении",
+  "itemgroup.mymod.v_slovenii_group_blocks": "Блоки В Словении",
+  "itemgroup.mymod.v_slovakii_group_item": "Предметы В Словакии",
+  "itemgroup.mymod.v_slovakii_group_blocks": "Блоки В Словакии",
 
   "tooltip.mymod.raw_v_slovenii_raw_v_slovakii.tooltip": "Нужен хороший повар!",
   "tooltip.raw_deepslate_v_slovakii_ore_v_slovenii_ore.tooltip": "Только в глубоких пещерах!",
