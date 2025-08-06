@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_v_slovenii": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mymod:block_v_slovenii"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:v_slovenii_buttons_from_block_v_slovenii"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_v_slovenii"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:v_slovenii_buttons_from_block_v_slovenii"
+    ]
+  }
+}

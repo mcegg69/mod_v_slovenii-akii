@@ -17,10 +17,12 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVENII_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVENII_ORE);
-
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVAKII_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVAKII_ORE);
         // Здесь я добавляю пулл для моделей (ступеньки , полублоки и т.д.)
 
         BlockStateModelGenerator.BlockTexturePool Vslovenii = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLOCK_V_SLOVENII);
+        BlockStateModelGenerator.BlockTexturePool Vslovakii = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLOCK_V_SLOVAKII);
 
         // А здесь уже инициализирую весь пулл и ещё двери и люки
 
@@ -37,9 +39,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.V_SLOVENII_DOORS);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.V_SLOVENII_TRAP_DOORS);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVAKII_DEEPSLATE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_V_SLOVAKII_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_V_SLOVAKII);
+
+        Vslovakii.stairs(ModBlocks.V_SLOVAKII_STAIRS);
+        Vslovakii.slab(ModBlocks.V_SLOVAKII_SLABS);
+
+        Vslovakii.button(ModBlocks.V_SLOVAKII_BUTTONS);
+        Vslovakii.pressurePlate(ModBlocks.V_SLOVAKII_PRESSURE_PLATE);
+
+        Vslovakii.fence(ModBlocks.V_SLOVAKII_FENCE);
+        Vslovakii.fenceGate(ModBlocks.V_SLOVAKII_FENCE_GATE);
+        Vslovakii.wall(ModBlocks.V_SLOVAKII_WALLS);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.V_SLOVAKII_DOORS);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.V_SLOVAKII_TRAP_DOORS);
+
     }
 
     @Override

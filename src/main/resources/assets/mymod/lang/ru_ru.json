@@ -22,6 +22,16 @@
   "block.mymod.v_slovenii_pressure_plate": "Нажимная плита В Словении",
   "block.mymod.v_slovenii_stairs": "Ступеньки В Словении",
 
+  "block.mymod.v_slovakii_doors": "Дверь В Словакии",
+  "block.mymod.v_slovakii_trap_doors": "Люк В Словакии",
+  "block.mymod.v_slovakii_buttons": "Кнопка В Словакии",
+  "block.mymod.v_slovakii_walls": "Стена В Словакии",
+  "block.mymod.v_slovakii_fence": "Забор В Словакии",
+  "block.mymod.v_slovakii_fence_gate": "Калитка В Словакии",
+  "block.mymod.v_slovakii_slabs": "Полублок В Словакии",
+  "block.mymod.v_slovakii_pressure_plate": "Нажимная плита В Словакии",
+  "block.mymod.v_slovakii_stairs": "Ступеньки В Словакии",
+
   "itemgroup.mymod.v_slovenii_group_items": "Предметы В Словении",
   "itemgroup.mymod.v_slovenii_group_blocks": "Блоки В Словении",
   "itemgroup.mymod.v_slovakii_group_item": "Предметы В Словакии",

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mymod:block/block_v_slovakii",
+    "side": "mymod:block/block_v_slovakii",
+    "top": "mymod:block/block_v_slovakii"
+  }
+}

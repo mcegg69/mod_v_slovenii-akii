@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": {
+      "item": "mymod:block_v_slovenii"
+    }
+  },
+  "pattern": [
+    "V  ",
+    "VV ",
+    "VVV"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mymod:v_slovenii_stairs"
+  }
+}

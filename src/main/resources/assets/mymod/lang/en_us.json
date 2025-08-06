@@ -20,6 +20,16 @@
   "block.mymod.v_slovenii_pressure_plate": "V Slovenii pressure plate",
   "block.mymod.v_slovenii_stairs": "V Slovenii stairs",
 
+  "block.mymod.v_slovakii_doors": "V Slovakii door",
+  "block.mymod.v_slovakii_trap_doors": "V Slovakii trap door",
+  "block.mymod.v_slovakii_buttons": "V Slovakii buttons",
+  "block.mymod.v_slovakii_walls": "V Slovakii walls",
+  "block.mymod.v_slovakii_fence": "V Slovakii fence",
+  "block.mymod.v_slovakii_fence_gate": "V Slovakii fence gate",
+  "block.mymod.v_slovakii_slabs": "V Slovakii slabs",
+  "block.mymod.v_slovakii_pressure_plate": "V Slovakii pressure plate",
+  "block.mymod.v_slovakii_stairs": "V Slovakii stairs",
+
   "itemgroup.mymod.v_slovenii_group_items": "V Slovenii items",
   "itemgroup.mymod.v_slovenii_group_blocks": "V Slovenii blocks",
   "itemgroup.mymod.v_slovakii_group_item": "V Slovakii items",

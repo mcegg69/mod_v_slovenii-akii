@@ -11,5 +11,8 @@ public class Mymodclient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.V_SLOVENII_DOORS , RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.V_SLOVENII_TRAP_DOORS , RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.V_SLOVAKII_DOORS , RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.V_SLOVAKII_TRAP_DOORS , RenderLayer.getCutout());
     }
 }

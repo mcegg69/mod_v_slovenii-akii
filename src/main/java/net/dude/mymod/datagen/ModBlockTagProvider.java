@@ -38,6 +38,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.V_SLOVENII_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.V_SLOVENII_WALLS);
 
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.V_SLOVAKII_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.V_SLOVAKII_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.V_SLOVAKII_WALLS);
+
 
 
     }

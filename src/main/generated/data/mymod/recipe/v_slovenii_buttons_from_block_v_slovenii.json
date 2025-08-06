@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "v_slovenii",
+  "ingredients": [
+    {
+      "item": "mymod:block_v_slovenii"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mymod:v_slovenii_buttons"
+  }
+}

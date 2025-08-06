@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "mymod:block/v_slovakii_doors_bottom",
+    "top": "mymod:block/v_slovakii_doors_top"
+  }
+}

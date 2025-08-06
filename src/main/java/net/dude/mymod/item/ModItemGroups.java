@@ -23,6 +23,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCK_V_SLOVAKII);
                         entries.add(ModBlocks.RAW_V_SLOVAKII_ORE);
                         entries.add(ModBlocks.RAW_V_SLOVAKII_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.V_SLOVAKII_BUTTONS);
+                        entries.add(ModBlocks.V_SLOVAKII_TRAP_DOORS);
+                        entries.add(ModBlocks.V_SLOVAKII_DOORS);
+                        entries.add(ModBlocks.V_SLOVAKII_STAIRS);
+                        entries.add(ModBlocks.V_SLOVAKII_SLABS);
+                        entries.add(ModBlocks.V_SLOVAKII_PRESSURE_PLATE);
+                        entries.add(ModBlocks.V_SLOVAKII_FENCE);
+                        entries.add(ModBlocks.V_SLOVAKII_FENCE_GATE);
+                        entries.add(ModBlocks.V_SLOVAKII_WALLS);
                     }).build());
 
     public static final ItemGroup V_SLOVAKII_GROUP_ITEMS = Registry.register(
