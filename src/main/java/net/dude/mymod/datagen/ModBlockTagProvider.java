@@ -23,11 +23,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_V_SLOVENII_ORE)
                 .add(ModBlocks.BLOCK_V_SLOVENII);
 
+      getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+              .add(ModBlocks.BREWING_BARREL);
+
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_V_SLOVAKII_DEEPSLATE_ORE)
                 .add(ModBlocks.RAW_V_SLOVAKII_ORE)
                 .add(ModBlocks.RAW_V_SLOVENII_DEEPSLATE_ORE)
-                .add(ModBlocks.RAW_V_SLOVENII_ORE);
+                .add(ModBlocks.RAW_V_SLOVENII_ORE)
+                .add(ModBlocks.BREWING_BARREL);
+
 
        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
              .add(ModBlocks.BLOCK_V_SLOVENII)

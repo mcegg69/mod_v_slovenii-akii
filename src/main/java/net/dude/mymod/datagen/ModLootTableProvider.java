@@ -34,6 +34,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_V_SLOVENII_ORE, oreDrops(ModBlocks.RAW_V_SLOVENII_ORE, ModItems.RAW_V_SLOVENII));
         addDrop(ModBlocks.RAW_V_SLOVENII_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RAW_V_SLOVENII_ORE, ModItems.RAW_V_SLOVENII,1 ,2));
 
+        //ДРОП БЛОКОВ В СЛОВЕНИИ
+
         addDrop(ModBlocks.V_SLOVENII_STAIRS);
         addDrop(ModBlocks.V_SLOVENII_SLABS, slabDrops(ModBlocks.V_SLOVENII_SLABS));
 
@@ -47,6 +49,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.V_SLOVENII_DOORS, doorDrops(ModBlocks.V_SLOVENII_DOORS));
         addDrop(ModBlocks.V_SLOVENII_TRAP_DOORS);
 
+        //ДРОП БЛОКОВ В СЛОВАКИИ
+
         addDrop(ModBlocks.V_SLOVAKII_STAIRS);
         addDrop(ModBlocks.V_SLOVAKII_SLABS, slabDrops(ModBlocks.V_SLOVAKII_SLABS));
 
@@ -59,6 +63,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.V_SLOVAKII_DOORS, doorDrops(ModBlocks.V_SLOVAKII_DOORS));
         addDrop(ModBlocks.V_SLOVAKII_TRAP_DOORS);
+
+        //ДРОП БЛОКОВ ETC
+
+        addDrop(ModBlocks.BREWING_BARREL);
+
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
