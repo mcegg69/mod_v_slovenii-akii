@@ -1,8 +1,11 @@
 {
   "item.mymod.v_slovenii": "V Slovenii",
   "item.mymod.raw_v_slovenii": "Raw V Slovenii",
+  "item.mymod.v_slovenii_midas": "Arms of Midas V Slovenii",
   "item.mymod.v_slovakii": "V Slovakii",
   "item.mymod.raw_v_slovakii": "Raw V Slovakii",
+  "item.mymod.v_slovakii_midas": "Arms of Midas V Slovakii",
+  "item.mymod.iron_shell_for_barrel": "Iron shell for barrel",
 
   "block.mymod.block_v_slovenii": "Block V Slovenii",
   "block.mymod.raw_v_slovenii_ore": "V Slovenii ore",
@@ -19,6 +22,7 @@
   "block.mymod.v_slovenii_slabs": "V Slovenii slabs",
   "block.mymod.v_slovenii_pressure_plate": "V Slovenii pressure plate",
   "block.mymod.v_slovenii_stairs": "V Slovenii stairs",
+  "block.mymod.brewing_barrel": "Brewing barrel",
 
   "block.mymod.v_slovakii_doors": "V Slovakii door",
   "block.mymod.v_slovakii_trap_doors": "V Slovakii trap door",
@@ -30,10 +34,10 @@
   "block.mymod.v_slovakii_pressure_plate": "V Slovakii pressure plate",
   "block.mymod.v_slovakii_stairs": "V Slovakii stairs",
 
-  "itemgroup.mymod.v_slovenii_group_items": "V Slovenii items",
-  "itemgroup.mymod.v_slovenii_group_blocks": "V Slovenii blocks",
-  "itemgroup.mymod.v_slovakii_group_item": "V Slovakii items",
-  "itemgroup.mymod.v_slovakii_group_blocks": "V Slovakii blocks",
+  "itemgroup.mymod.v_slovenii_group_items": "V Slovenii blocks",
+  "itemgroup.mymod.v_slovenii_group_blocks": "V Slovenii items",
+  "itemgroup.mymod.v_slovakii_group_items": "V Slovakii blocks",
+  "itemgroup.mymod.v_slovakii_group_blocks": "V Slovakii items",
 
   "tooltip.mymod.raw_v_slovenii_raw_v_slovakii.tooltip": "Needs a proper cook!",
   "tooltip.raw_deepslate_v_slovakii_ore_v_slovenii_ore.tooltip": "Only in deep caves!",
