@@ -1,4 +1,4 @@
-// 1.21	2025-08-06T05:17:46.2730562	mymod/Model Definitions
+// 1.21	2025-08-07T20:31:38.2702583	mymod/Model Definitions
 4a68c64701e18e66be63bb0cb9f3f2390ecf4675 assets\mymod\models\block\v_slovakii_walls_post.json
 9f1bbb9c9870a010e6c0aa57ca4db778ec5e4b89 assets\mymod\models\block\v_slovenii_pressure_plate_down.json
 31e2799b2b3c9e0c3ba82d3ffe6bb13952651d99 assets\mymod\models\item\v_slovenii_fence.json
@@ -42,8 +42,8 @@ fc62cbad4960f61ee71a7539143351a590e21e26 assets\mymod\models\block\v_slovakii_fe
 98d57f4721525c5c080644ff981484013603361f assets\mymod\models\item\v_slovakii_pressure_plate.json
 edb74eb5026d95d9a45d2920bb8871e217389224 assets\mymod\models\block\v_slovakii_doors_top_right_open.json
 013beecb28750ae415112ed8f2e276c812a5a241 assets\mymod\models\block\v_slovakii_slabs.json
-d023a10ed54a80437b603cf3eeecbd58cf8bb059 assets\mymod\models\block\v_slovakii_stairs_outer.json
 065427e8105d5faae34be4f2a383185a7cd14f2a assets\mymod\models\item\v_slovakii.json
+d023a10ed54a80437b603cf3eeecbd58cf8bb059 assets\mymod\models\block\v_slovakii_stairs_outer.json
 6bba0f47dbd6eb627a7459c4515910dda869fc1e assets\mymod\models\block\v_slovakii_fence_inventory.json
 f6c17ea68fa2219f08c52fa46196253d12ebcbe4 assets\mymod\blockstates\block_v_slovakii.json
 b63acb0a1ceea3814122e586e90ed474e207772d assets\mymod\models\block\v_slovenii_stairs_inner.json
@@ -89,6 +89,7 @@ a536a0a301e910e35f411813e4884c5975a2a695 assets\mymod\models\block\v_slovakii_bu
 efbab05cfaa49644a6b44f318386f735d8270b7c assets\mymod\blockstates\v_slovakii_fence.json
 f52c4dff2eedc10ba724a22463d2f0934da4e348 assets\mymod\models\block\v_slovenii_walls_side.json
 9e381fc7f5089526591064a08d1aa005ba885bfe assets\mymod\blockstates\raw_v_slovenii_ore.json
+8a802d7f4edaf73d237e7dd94d3949e550f760ba assets\mymod\models\item\iron_shell_for_barrel.json
 b7e2315d7fceb81dba3cc8e30145eeb345ffde00 assets\mymod\blockstates\v_slovenii_doors.json
 c4716f179c62f18115aa3e0b6bf3a19434924f09 assets\mymod\models\block\v_slovakii_doors_bottom_left_open.json
 8b884bf932fe975288893868c43887897aa2a5e5 assets\mymod\models\block\v_slovenii_buttons_pressed.json

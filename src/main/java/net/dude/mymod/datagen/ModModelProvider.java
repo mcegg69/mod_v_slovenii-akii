@@ -57,9 +57,13 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        //ПРЕДМЕТЫ В СЛОВЕНИИ
         itemModelGenerator.register(ModItems.V_SLOVENII, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_V_SLOVENII, Models.GENERATED);
+        //ПРЕДМЕТЫ В СЛОВАКИИ
         itemModelGenerator.register(ModItems.V_SLOVAKII, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_V_SLOVAKII, Models.GENERATED);
+        //ПРЕДМЕТЫ ETC
+        itemModelGenerator.register(ModItems.IRON_SHELL_FOR_BARREL, Models.GENERATED);
     }
 }

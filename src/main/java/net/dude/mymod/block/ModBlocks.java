@@ -160,6 +160,7 @@ public class ModBlocks {
                     .nonOpaque()));
 
     //БЛОКИ В СЛОВАКИИ
+
     public static final Block V_SLOVAKII_STAIRS = registerBlock("v_slovakii_stairs" , new StairsBlock(ModBlocks.BLOCK_V_SLOVAKII.getDefaultState() ,
             AbstractBlock.Settings.create()
                     .strength(3f)
@@ -217,6 +218,15 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.TUFF)
                     .nonOpaque()));
 
+    //БЛОКИ ETC
+
+    public static final Block BREWING_BARREL = registerBlock(
+            "brewing_barrel",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .strength(3f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.WOOD)));
 
 
     private static Block registerBlock(String name, Block block){

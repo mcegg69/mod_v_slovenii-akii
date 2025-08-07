@@ -75,6 +75,11 @@ public class ModItems {
            new VSlovakiimidas(
                     new Item.Settings().maxDamage(64)));
 
+    public static final Item IRON_SHELL_FOR_BARREL = registerItem(
+            "iron_shell_for_barrel",
+            new Item(
+                    new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Mymod.MOD_ID, name), item);

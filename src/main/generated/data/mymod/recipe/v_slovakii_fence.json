@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "S": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "V": {
+    "W": {
       "item": "mymod:block_v_slovakii"
     }
   },
   "pattern": [
-    "VSV",
-    "VSV"
+    "W#W",
+    "W#W"
   ],
   "result": {
     "count": 3,

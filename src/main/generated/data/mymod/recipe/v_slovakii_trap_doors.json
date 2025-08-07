@@ -3,18 +3,15 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
       "item": "mymod:block_v_slovakii"
     }
   },
   "pattern": [
-    "#W#",
-    "#W#"
+    "###",
+    "###"
   ],
   "result": {
-    "count": 1,
-    "id": "mymod:v_slovakii_fence_gate"
+    "count": 2,
+    "id": "mymod:v_slovakii_trap_doors"
   }
 }

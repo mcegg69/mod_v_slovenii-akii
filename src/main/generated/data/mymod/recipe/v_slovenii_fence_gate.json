@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
   "key": {
-    "S": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "V": {
+    "W": {
       "item": "mymod:block_v_slovenii"
     }
   },
   "pattern": [
-    "SVS",
-    "SVS"
+    "#W#",
+    "#W#"
   ],
   "result": {
-    "count": 3,
+    "count": 1,
     "id": "mymod:v_slovenii_fence_gate"
   }
 }

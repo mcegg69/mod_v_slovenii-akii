@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "V": {
+    "#": {
       "item": "mymod:block_v_slovakii"
     }
   },
   "pattern": [
-    "V  ",
-    "VV ",
-    "VVV"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
-    "count": 3,
+    "count": 4,
     "id": "mymod:v_slovakii_stairs"
   }
 }

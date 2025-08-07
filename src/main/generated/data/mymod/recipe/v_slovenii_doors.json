@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "mymod:block_v_slovenii"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "##",
+    "##",
+    "##"
   ],
   "result": {
-    "count": 4,
-    "id": "mymod:v_slovenii_stairs"
+    "count": 3,
+    "id": "mymod:v_slovenii_doors"
   }
 }

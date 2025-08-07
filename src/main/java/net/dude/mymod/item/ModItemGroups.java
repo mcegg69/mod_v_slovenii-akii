@@ -78,6 +78,17 @@ public static final ItemGroup V_SLOVENII_GROUP_ITEMS = Registry.register(
                         entries.add(ModItems.V_SLOVENII_MIDAS);
                     }).build());
 
+    public static final ItemGroup ETC = Registry.register(
+            Registries.ITEM_GROUP,
+            Identifier.of(Mymod.MOD_ID,"etc"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.IRON_SHELL_FOR_BARREL))
+                    .displayName(Text.literal("etc"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.IRON_SHELL_FOR_BARREL);
+                        entries.add(ModBlocks.BREWING_BARREL);
+                    }).build());
+
+
 
     public static void registerItemGroups() {
 

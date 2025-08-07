@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_v_slovakii": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mymod:block_v_slovakii"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mymod:v_slovakii_doors"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_v_slovakii"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mymod:v_slovakii_doors"
+    ]
+  }
+}
